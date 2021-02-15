@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "sign up scenario",
+        "description": "",
+        "id": "sign-up-feature;sign-up-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11432641900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is aleady on homepage",
+            "match": {
+              "location": "SignUpstepDeefinition.user_is_aleady_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4435249800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on sign in button and register button",
+            "match": {
+              "location": "SignUpstepDeefinition.user_click_on_sign_in_button_and_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699580200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the valid details of sign up",
+            "match": {
+              "location": "SignUpstepDeefinition.user_enter_the_valid_details_of_sign_up(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "firstname",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "kachadiyajaimin",
+                  "jaimin",
+                  "jaimin123"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "sfkakbfsaowe",
+                  "viswadsafa",
+                  "jasijfia"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "browser close",
+            "match": {
+              "location": "SignUpstepDeefinition.browser_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "sign up feature",
+    "description": "",
+    "id": "sign-up-feature",
+    "keyword": "Feature",
+    "uri": "D:/Selenium_workspace/mvnetsyBDD/src/main/java/Features/SignUp.feature"
+  }
+]

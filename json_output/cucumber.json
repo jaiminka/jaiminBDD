@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Etasy login scenario",
+        "description": "",
+        "id": "etasy-login-feature;etasy-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is already on loginpage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "title of login page is Etsay",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Then user enters \"jaimin\" and \"jaimin@123\"  for with out examples keyword and with Scenario ."
+              },
+              {
+                "line": 8,
+                "value": "#Then user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" for Scenario Outline with Examples keyword."
+              }
+            ],
+            "line": 9,
+            "name": "user enters username and password",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "jaimin",
+                  "jaimin@123"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user click on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Etasy login feature",
+    "description": "",
+    "id": "etasy-login-feature",
+    "keyword": "Feature",
+    "uri": "D:/Selenium_workspace/mvnetsyBDD/src/main/java/Features/Login.feature"
+  }
+]

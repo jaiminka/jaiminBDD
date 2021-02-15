@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+    <testcase classname="Etasy login feature" name="Etasy login scenario" time="0">
+        <skipped>
+            <![CDATA[Given user is already on loginpage..........................................undefined
+When title of login page is Etsay...........................................undefined
+Then user enters username and password......................................undefined
+Then user click on login button.............................................undefined
+And user is on homepage.....................................................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
